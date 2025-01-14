@@ -63,10 +63,10 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
   <img src="https://i.imgur.com/7P7aHLg.png" height="75%" width="100%" alt="Ubuntu VM"/>
 </p>
 <p>
-  Observe Your Virtual Network within Network Watcher:
+  Observe Your Virtual Machines in the Virtual Machines tab:
 </p>
 <p>
-  <img src="https://i.imgur.com/Pn02GXF.png" height="75%" width="100%" alt="Network Watcher"/>
+  <img src="https://i.imgur.com/hgAzjUc.png" height="75%" width="100%" alt="Network Watcher"/>
 </p>
 <br />
 <br />
@@ -75,10 +75,10 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
 </h3>
 <br />
 <p>
-  Remote into your Windows 10 Virtual Machine, install Wireshark, open it and filter for ICMP traffic only.
+  Open remote desktop, and log into your Windows 10 Virtual Machine using the public IP Address.
 </p>
 <p>
-  <img src="https://i.imgur.com/0BsfNiS.jpg" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+  <img src="https://i.imgur.com/8MLJFRH.png" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
   Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. Observe ping requests and replies within WireShark:
