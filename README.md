@@ -122,7 +122,7 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
 </p>
 <p>
   <img src="https://i.imgur.com/ovGk5dq.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
-  <img src="https://i.imgur.com/NjuUANI.png" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
+  <img src="https://i.imgur.com/dDwRC1P.png" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
 </p>
 <p>
   Re-enable ICMP traffic for the Network Security Group in your Ubuntu VM and back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line ping activity (should start working again).Finally, stop the ping activity:
