@@ -174,12 +174,12 @@ Observe the DHCP traffic appearing in WireShark:
   From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are and observe the DNS traffic being shown in WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/mYZ8CAK.png" height="75%" width="100%" alt="DNS traffic"/>
+  <img src="https://i.imgur.com/EUqRRaw.png" height="75%" width="100%" alt="DNS traffic"/>
 </p>
 <br />
 <br />
 <h3 align="center">
-  Finally, we will observe RDP traffic to finish up this tutorial
+  Finally, we will observe RDP traffic
 </h3>
 <br />
 <p>
@@ -192,7 +192,10 @@ Observe the DHCP traffic appearing in WireShark:
   The answer is because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted:
 </p>
 <p>
-  <img src="https://i.imgur.com/hNlhTVp.png" height="75%" width="100%" alt="RDP traffic"/>
+  <img src="https://i.imgur.com/oqIMD9c.png" height="75%" width="100%" alt="RDP traffic"/>
+</p>
+<p>
+  In Wireshark, click the red square icon to stop capturing packets.
 </p>
 <p>
   Now that we're finished observing the network, DON'T FORGET TO CLEAN UP YOUR AZURE ENVIRONMENT! This will prevent you from incurring additional charges and you won't be left surprised!
