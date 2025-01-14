@@ -159,7 +159,7 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
 Observe the DHCP traffic appearing in WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/mKyAHFr.png" height="75%" width="100%" alt="DHCP traffic"/>
+  <img src="https://i.imgur.com/4BS0mJP.png" height="75%" width="100%" alt="DHCP traffic"/>
 </p>
 <br />
 <br />
