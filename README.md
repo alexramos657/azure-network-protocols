@@ -99,11 +99,17 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
   <img src="https://i.imgur.com/bQvpTnJ.png" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
+  You won't see any packets because ICMP packets are not being generated or transmitted on the network you are monitoring yet.
+</p>
+<p>
+  <img src="https://i.imgur.com/z3ojiYG.png" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+</p>
+<p>
   Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. Observe ping requests and replies within WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/yYGKuAy.png" height="75%" width="100%" alt="Ubuntu private IP"/>
-  <img src="https://i.imgur.com/3h9QSEY.png" height="75%" width="100%" alt="ICMP traffic - private IP"/>
+  <img src="https://i.imgur.com/fzaVRLP.png" height="75%" width="100%" alt="Ubuntu private IP"/>
+  <img src="https://i.imgur.com/3nqPwMV.png" height="75%" width="100%" alt="ICMP traffic - private IP"/>
 </p>
 <p>
   Attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark:
