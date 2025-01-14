@@ -42,10 +42,10 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
   First, let's create our Resource Group inside our Azure subscription.
 </p>
 <p>
-  <img src="https://i.imgur.com/dOAeXqs.png" height="75%" width="100%" alt="Resource Group"/>
+  <img src="https://i.imgur.com/8uluq6L.png" height="75%" width="100%" alt="Resource Group"/>
 </p>
 <p>
-  Now create your Windows virtual machine. I typically create the VM in (US) East US.
+  Now create your Windows virtual machine. I typically create the VM in (US) West US.
 </p>
 <p>
   While creating the VM, select the previously created Resource Group and allow it to create a new Virtual Network (Vnet) and Subnet. Make sure to use the password option under the <strong>Administrator Account</strong> section:
