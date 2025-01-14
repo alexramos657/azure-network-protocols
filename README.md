@@ -87,6 +87,12 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
   <img src="https://i.imgur.com/6qmIlO3.png" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
+     Open Wireshark, select "Ethernet," and click the blue shark icon to observe network traffic.
+</p>
+<p>
+  <img src="https://i.imgur.com/Fb2IXUi.png" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+</p>
+<p>
   Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. Observe ping requests and replies within WireShark:
 </p>
 <p>
