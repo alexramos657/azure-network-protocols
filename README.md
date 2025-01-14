@@ -112,16 +112,10 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
   <img src="https://i.imgur.com/3nqPwMV.png" height="75%" width="100%" alt="ICMP traffic - private IP"/>
 </p>
 <p>
-  Attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark:
-</p>
-<p>
-  <img src="https://i.imgur.com/YduMvc7.png" height="75%" width="100%" alt="ICMP traffic - public IP"/>
-</p>
-<p>
   Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM:
 </p>
 <p>
-  <img src="https://i.imgur.com/bihftKK.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
+  <img src="https://i.imgur.com/d3Au3lv.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
 </p>
 <p>
   Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic, while back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity:
