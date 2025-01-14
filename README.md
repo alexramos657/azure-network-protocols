@@ -137,12 +137,15 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
 </h3>
 <br />
 <p>
-  Back in Wireshark, filter for SSH traffic only and from your Windows 10 VM, “SSH into” your Ubuntu virtual machine (via its private IP address). Type commands (ls, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark.
+  Now filter to only show SSH traffic in Wireshark, and SSH into VM2 using PowerShell:
 </p>
 </p>
-  Exit the SSH connection by typing ‘exit’ and pressing [return]:
+<img src="https://i.imgur.com/kxcm0Oo.png" height="75%" width="100%" alt="SSH traffic"/>
 </p>
-  <img src="https://i.imgur.com/6YEDJKu.png" height="75%" width="100%" alt="SSH traffic"/>
+</p>
+  Exit the SSH connection by typing ‘exit’ and pressing [enter]:
+</p>
+  
 <p>
 <br />
 <br />
