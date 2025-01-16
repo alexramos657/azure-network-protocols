@@ -18,7 +18,7 @@ In this project, we observe various network traffic to and from Azure Virtual Ma
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
+- Windows 10 (22H2)
 - Ubuntu Server 24.04
 
 <h2>High-Level Steps</h2>
